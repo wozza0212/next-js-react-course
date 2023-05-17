@@ -1,3 +1,6 @@
+import { useRouter } from 'next/router';
+const router = useRouter();
+console.log(router.query);
 const clientsPage = () => {
     return (
         <section>
